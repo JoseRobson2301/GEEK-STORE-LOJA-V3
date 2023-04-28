@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./carrinho.html">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./carrinho.css">
+    <link rel="icon" href="./geek-store-logo.png">
+    <title>Geek Store</title>
+</head>
+<body>
+	<header>
+        <nav>
+                <a href="#">CASA</a>
+                <a href="#secao00" class="scroll-link">COMPRAR</a>
+                <a href="#">SUPORTE</a>
+        </nav>
+	</header>
+	<main>
+		<h2>✨✨✨✨✨✨✨✨DESCONTOS DO DIA✨✨✨✨✨✨✨✨</h2>
+        <div class="produto-container">
+            <ul>
+                <li>
+                    <img src="./Desenho-Animado.webp">
+                    <h3>Blusa do Panda</h3>
+                    <p>R$ 40,00</p><button class="btn-productCL" data-product-id="pdt-00">Adicionar ao carrinho</button>
+                </li>
+                <li>
+                    <img src="./pacman.webp">
+                    <h3>Blusa do Pacman</h3>
+                    <p>R$ 40,00</p>
+                    <button class="btn-productCL" data-product-id="pdt-01">Adicionar ao carrinho</button>
+                </li>
+                <li>
+                    <img src="./Meia-Listrada.jpg">
+                    <h3>Meia Listrada</h3>
+                    <p>R$ 19,00</p>
+                    <button class="btn-productCL" data-product-id="pdt-02">Adicionar ao carrinho</button>
+                </li>
+                <li>
+                    <img src="./gato-Animado.webp">
+                    <h3>Blusa Pato Banana</h3>
+                    <p>R$ 40,00</p>
+                    <button class="btn-productCL" data-product-id="pdt-03">Adicionar ao carrinho</button>
+                </li>
+                <li>
+                    <img src="./Meow-Wars.webp">
+                    <h3>Blusa do Miau Wars</h3>
+                    <p>R$ 50,00</p>
+                    <button class="btn-productCL" data-product-id="pdt-04">Adicionar ao carrinho</button>
+                </li>
+                <li>
+                    <img src="./Blusa_Gatos.webp">
+                    <h3>Blusa de Gatos</h3>
+                    <p>R$ 50,00</p>
+                    <button class="btn-productCL" data-product-id="pdt-05">Adicionar ao carrinho</button>
+                </li>
+            </ul>
+        </div>
+        <br><br><br><br><br>
+        <section id="secao00">
+            <div class="container-pagamento">
+                <h1 class="h1-pagamento">Pagamento</h1>
+                <form action="/pagamento" method="post" class="form-pagamento">
+                    <label for="nome">Número do cartão:</label>
+                    <input type="text" id="nome" name="nome" required>
+        
+                    <label for="valor">Codigo de segurança:</label>
+                    <input type="number" id="valor" name="valor" min="0" step="0.01" required>
+        
+                    <label for="valor">Mês e Dia do Vencimento:</label><br>
+                    <input type="month" id="mes" name="valor"><br><br>
+        
+                    <input type="submit" value="Pagar">
+                </form>
+        </section>
+	</main>
+	<footer>
+		<p>GEEK STORE - Agredece pela a sua visita ❤❤❤</p>
+	</footer>
+</body>
+    <script src="./script.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</html>

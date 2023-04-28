@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FINALIZAR A COMPRA</title>
+    <link rel="stylesheet" href="carrinho.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pagamento</h1>
+        <form action="/pagamento" method="post">
+            <label for="nome">Nome do cartão:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="valor">Codigo de segurança:</label>
+            <input type="number" id="valor" name="valor" min="0" step="0.01" required>
+
+            <label for="valor">Mês de Vencimento:</label>
+            <input type="date" id="mes" name="valor" required>
+
+            <input type="submit" value="Pagar">
+        </form>
+    </div>
+</body>
+</html>

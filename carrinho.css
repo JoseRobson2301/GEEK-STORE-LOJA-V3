@@ -1,0 +1,77 @@
+.container-pagamentos {
+        max-width: 500px;
+        margin: 0 auto;
+        text-align: center;
+}
+.h1-pagamento {
+        font-size: 36px;
+        margin-bottom: 20px;
+        color: aliceblue;
+}
+.form-pagamentorm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+form label {
+        font-size: 18px;
+        margin-bottom: 10px;
+        color: aliceblue;
+}
+form input {
+	flex-basis: calc(33.33% - 40px);
+	background-color: #e6e6e6;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0,0,0,.2);
+    outline: none;
+}
+form input[type="text"], input[type="number"] {
+        font-size: 18px;
+        padding: 10px;
+        margin-bottom: 20px;
+        width: 100%;
+        box-sizing: border-box;
+}
+form input[type="month"] {
+    width: 115vh;
+}
+form input[type="submit"] {
+	background-color: #a92929;
+	color: #fff;
+	width: 122vh;
+	padding: 10px 20px;
+	border: none;
+	border-radius:0;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color .3s;
+	cursor: url(./cursor-head.cur), pointer;
+}
+form input[type="submit"]:hover {
+    background-color: #35c035;
+    cursor: url(./cursor-head.cur);
+}
+
+
+@keyframes --cor--de--animacao--de--fundo {
+	1% {
+		background-color: #00FF00;
+	}
+
+	25% {
+		background-color: #ed2860;
+	}
+
+	50% {
+		background-color: aqua;
+	}
+
+	75% {
+		background-color: chartreuse;
+	}
+
+	100% {
+		background-color: #ed2860;
+	}
+}
