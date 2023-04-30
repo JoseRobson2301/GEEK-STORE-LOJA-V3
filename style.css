@@ -180,10 +180,17 @@ seletor a {
   }
 }
 
-@media only screen and (min-width: 400px) and (max-width: 500px) {
+@media only screen and (min-width: 100px) and (max-width: 500px) {
 
   .produto-container li {
       flex-basis: calc(40% - 20px);
+  }
+
+  ul {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-auto-rows: auto;
+      gap: 20px;
   }
 
   img {
@@ -191,7 +198,11 @@ seletor a {
   }
   
   li {
-      flex-basis: calc(50% - 100px)
+      flex-basis: calc(50% - 30px)
+  }
+
+  li:nth-child(2n) {
+      grid-row: span 2;
   }
   
   nav {
