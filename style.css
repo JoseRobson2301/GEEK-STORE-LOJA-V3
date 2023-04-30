@@ -180,3 +180,24 @@ seletor a {
   }
 }
 
+@media only screen and (min-width: 400px) and (max-width: 500px) {
+
+  .produto-container li {
+      flex-basis: calc(50% - 20px);
+  }
+  
+  li {
+      flex-basis: calc(50% - 20px);
+  }
+  
+  nav {
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  nav a {
+      margin: 10px 0;
+      transform: none;
+  }
+}
+
