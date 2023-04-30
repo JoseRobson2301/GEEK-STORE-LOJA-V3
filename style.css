@@ -149,15 +149,16 @@ seletor a {
 	cursor: url(./cursor-heath.cur);
 }
 
-@media only screen and (min-width: 600px) and (max-width: 700px) {
+
+@media only screen and (max-width: 599px) {
   .produto-container li {
     flex-basis: calc(50% - 20px);
   }
-
+  
   li {
     flex-basis: calc(50% - 20px);
   }
-
+  
   ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -165,7 +166,18 @@ seletor a {
     gap: 20px;
   }
 
-  li:nth-child(2n) {
+  li:nth-child(2n),
+  li:nth-child(2n-1) {
     grid-row: span 2;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  nav a {
+    margin: 10px 0;
+    transform: none;
   }
 }
