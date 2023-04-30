@@ -6,7 +6,7 @@ for (var i = 0; i < buttons.length; i++) {
     swal.fire({
       title: 'DESEJA ADICIONAR NO CARRINHO?',
       showDenyButton: true,
-      showCancelButton: true,
+      showCancelButton: false,
       confirmButtonText: 'SIM',
       denyButtonText: `NÃO`,
     }).then((result) => {
