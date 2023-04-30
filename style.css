@@ -150,14 +150,14 @@ seletor a {
 }
 
 
-
-@media (max-width: 600px) {
-  .produto-container {
-    max-width: 100%;
-    padding: 10px;
-  }
-  .produto-container li {
-    flex-basis: 100%;
-    margin: 10px;
-  }
+@media screen and (max-width: 600px) {
+    .produto-container ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .produto-container li {
+        width: 50%;
+        box-sizing: border-box;
+        padding: 10px;
+    }
 }
