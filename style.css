@@ -154,3 +154,14 @@ seletor a {
     flex-direction: column;
   }
 }
+
+@media (max-width: 700px) {
+  ul {
+  display: flex;
+  flex-wrap: wrap;
+  }
+
+  li {
+  width: 50%;
+  }
+}
