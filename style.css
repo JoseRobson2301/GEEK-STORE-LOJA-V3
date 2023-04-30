@@ -148,3 +148,9 @@ seletor button {
 seletor a {
 	cursor: url(./cursor-heath.cur);
 }
+
+@media (max-width: 600px) {
+  .produto-container {
+    flex-direction: column;
+  }
+}
