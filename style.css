@@ -183,11 +183,15 @@ seletor a {
 @media only screen and (min-width: 400px) and (max-width: 500px) {
 
   .produto-container li {
-      flex-basis: calc(50% - 20px);
+      flex-basis: calc(40% - 20px);
+  }
+
+  img {
+      width: 100px
   }
   
   li {
-      flex-basis: calc(50% - 20px);
+      flex-basis: calc(50% - 100px)
   }
   
   nav {
