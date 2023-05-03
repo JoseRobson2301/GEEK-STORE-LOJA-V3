@@ -164,10 +164,6 @@ main h2 {
 	display: none;
 }
 
-button {
-	font-size: 6px;
-}
-
 .produto-container li {
   display: inline-block;
   margin: 10px;
@@ -181,6 +177,16 @@ header {
 	border-top-right-radius: 0px;
 	border-bottom-left-radius: 0px;
 }
+
+li:nth-child(1) {
+	margin-left: 50px;
+}
+li:nth-child(3) {
+	margin-left: 50px;
+}
+li:nth-child(5) {
+	margin-left: 50px;
+}
 }
 
 @media (min-width: 100px) and (max-width: 599px){
@@ -190,11 +196,11 @@ header {
 	}
 
 	li {
-		padding: 20px;
+		padding: 5px;
 	}
 
 	li button {
-		width: 150px;
+		width: 100px;
 	}
 
 	img {
@@ -209,10 +215,6 @@ header {
 
 	html {
 		width: 70vh;
-	}
-
-	button {
-		font-size: 5px;
 	}
 }
 
