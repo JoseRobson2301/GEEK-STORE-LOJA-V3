@@ -216,6 +216,10 @@ li:nth-child(5) {
 	html {
 		width: 70vh;
 	}
+
+	button {
+		font-size: 5px;
+	}
 }
 
 @media (min-height: 101px) and (max-height: 601) {
