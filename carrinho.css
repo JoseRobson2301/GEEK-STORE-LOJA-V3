@@ -34,12 +34,12 @@ form input[type="text"], input[type="number"] {
         box-sizing: border-box;
 }
 form input[type="month"] {
-    width: 115vh;
+    width: 760px;
 }
 form input[type="submit"] {
 	background-color: #a92929;
 	color: #fff;
-	width: 122vh;
+	width: 805px;
 	padding: 10px 20px;
 	border: none;
 	border-radius:0;
@@ -73,5 +73,11 @@ form input[type="submit"]:hover {
 
 	100% {
 		background-color: #ed2860;
+	}
+}
+
+@media (max-width: 600px){
+	form input {
+		width: 518px;
 	}
 }
