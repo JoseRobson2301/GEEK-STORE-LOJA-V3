@@ -211,4 +211,8 @@ li:nth-child(5) {
 		margin: 0;
 		padding: 0;
 	}
+	
+	html {
+		width: 60vh;
+	}
 }
