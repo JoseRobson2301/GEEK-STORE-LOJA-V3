@@ -195,7 +195,6 @@ li:nth-child(5) {
 	}
 
 	li {
-		margin: 0px;
 		padding: 5px;
 	}
 
@@ -212,8 +211,14 @@ li:nth-child(5) {
 		padding: 0;
 		margin-left: 40px;
 	}
-	
+
 	html {
 		width: 70vh;
+	}
+}
+
+@media (min-height: 101px) and (max-height: 601) {
+	main h2 {
+		display: none;
 	}
 }
