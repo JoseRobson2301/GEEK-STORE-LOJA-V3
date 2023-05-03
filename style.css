@@ -152,7 +152,7 @@ seletor a {
 }
 
 
-@media (max-width: 600px) {
+@media (min-width: 600px) and ( max-width: 800px) {
 .produto-container ul {
   list-style: none;
   margin: 0;
@@ -188,8 +188,9 @@ li:nth-child(5) {
 }
 }
 
-@media (min-width: 540px) {
+@media (min-width: 400px) and (max-width: 547px) {
 	li {
 		margin-left: 0;
+		padding: 0;
 	}
 }
