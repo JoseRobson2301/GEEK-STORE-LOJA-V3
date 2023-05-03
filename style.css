@@ -201,6 +201,7 @@ li:nth-child(5) {
 
 	li button {
 		width: 100px;
+		font-size: 15px;
 	}
 
 	img {
