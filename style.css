@@ -187,3 +187,9 @@ li:nth-child(5) {
 	margin-left: 50px;
 }
 }
+
+@media (max-width: 540px) {
+	li {
+		margin-left: 0;
+	}
+}
