@@ -13,7 +13,9 @@ body {
 header {
 	background-color: #ed2860;
 	color: #fff;
-	padding: 20px;
+	padding: 35px;
+	border-top-right-radius: 35px;
+	border-bottom-left-radius: 35px;
 }
 header h1 {
 	margin: 0;
@@ -157,6 +159,10 @@ seletor a {
   padding: 0;
 }
 
+main h2 {
+	display: none;
+}
+
 .produto-container li {
   display: inline-block;
   margin: 10px;
@@ -164,5 +170,20 @@ seletor a {
 
 .produto-container img {
   width: 150px;
+}
+
+header {
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+li:nth-child(1) {
+	margin-left: 50px;
+}
+li:nth-child(3) {
+	margin-left: 50px;
+}
+li:nth-child(5) {
+	margin-left: 50px;
 }
 }
