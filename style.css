@@ -177,16 +177,6 @@ header {
 	border-top-right-radius: 0px;
 	border-bottom-left-radius: 0px;
 }
-
-li:nth-child(1) {
-	margin-left: 50px;
-}
-li:nth-child(3) {
-	margin-left: 50px;
-}
-li:nth-child(5) {
-	margin-left: 50px;
-}
 }
 
 @media (min-width: 100px) and (max-width: 599px){
