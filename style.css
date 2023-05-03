@@ -189,6 +189,11 @@ li:nth-child(5) {
 }
 
 @media (min-width: 400px) and (max-width: 547px) {
+	
+		main h2 {
+		display: none;
+	}
+	
 	li {
 		margin-left: 0;
 		padding: 0;
