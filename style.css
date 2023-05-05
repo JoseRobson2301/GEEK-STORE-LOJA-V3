@@ -14,7 +14,7 @@ header {
 	background-color: #ed2860;
 	color: #fff;
 	padding: 32px;
-	border-radius: 50% 50% 50% 50%;
+	border-radius: 0% 0% 0% 0%;
 }
 header h1 {
 	margin: 0;
