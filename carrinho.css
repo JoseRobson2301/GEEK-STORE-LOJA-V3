@@ -34,12 +34,12 @@ form input[type="text"], input[type="number"] {
         box-sizing: border-box;
 }
 form input[type="month"] {
-    width: 760px;
+    width: 779px;
 }
 form input[type="submit"] {
 	background-color: #a92929;
 	color: #fff;
-	width: 805px;
+	width: 822px;
 	padding: 10px 20px;
 	border: none;
 	border-radius:0;
@@ -76,12 +76,12 @@ form input[type="submit"]:hover {
 	}
 }
 
-	@media (min-width: 0px) and (max-width: 600px){
+	@media (width: 384px) and (max-width: 600px){
 		form input[type="month"]{
-			width: 320px;
+			width: 315px;
 		}
 
 		form input[type="submit"] {
-			width: 365px;
+			width: 359px;
 		}
 	}
