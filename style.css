@@ -13,7 +13,7 @@ body {
 header {
 	background-color: #ed2860;
 	color: #fff;
-	padding: 35px;
+	padding: 32px;
 	border-top-right-radius: 35px;
 	border-bottom-left-radius: 35px;
 }
@@ -43,7 +43,7 @@ nav {
 }
 nav a {
     color: aliceblue;
-	font-size: 24px;
+	font-size: 21px;
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     cursor: pointer;
