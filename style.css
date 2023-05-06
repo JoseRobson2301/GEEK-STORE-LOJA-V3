@@ -128,7 +128,10 @@ footer {
 ::-webkit-scrollbar {
     display: none;
 }
-
+::selection {
+	background-color: #353ec0;
+	color: blanchedalmond;
+}
 seletor {
     cursor: url(./amon\ gus.cur);
 } 
