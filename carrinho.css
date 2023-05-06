@@ -75,13 +75,3 @@ form input[type="submit"]:hover {
 		background-color: #ed2860;
 	}
 }
-
-	@media (width: 384px) and (max-width: 600px){
-		form input[type="month"]{
-			width: 315px;
-		}
-
-		form input[type="submit"] {
-			width: 359px;
-		}
-	}
